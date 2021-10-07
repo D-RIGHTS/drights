@@ -1,19 +1,32 @@
 import React from 'react'
+import './styles.css';
 
 function Form() {
     return (
-        <div>
-            <form className="d-flex flex-column">
+            <form>
+                <div className="form-group row">
+                    <div className="col-sm-10">
+                        <input type="text" className="form-control" placeholder="Enter full name" />
+                    </div>
+                </div>
+                <div className="form-group row">
+                    <div className="col-sm-10">
+                        <input type="email" className="form-control" id="" placeholder="Enter your email" />
+                    </div>
+                </div>
+                <div className="form-group row">
+                    <div className="col-sm-10">
+                        <textarea type="text" className="form-control" rows="6" id="" placeholder="Tell us about your experience" />
+                    </div>
+                </div>
                 
-                <input type="text" placeholder="Enter your name" />
-                <br />
-                <input type="email" placeholder="Enter your email address" />
-                <br />
-                <input type="text" placeholder="Tell us about your self" />
-                <br />
-                <button type="submit" className="btn">Send Message</button>
+                
+                <div className="form-group row">
+                    <div className="col-sm-10">
+                        <button type="submit" className="btn btnStyle">Send Message</button>
+                    </div>
+                </div>
             </form>
-        </div>
     )
 }
 

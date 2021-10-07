@@ -4,7 +4,7 @@ import Form from './Form/Form';
 function News() {
     return (
         <div>
-            <h3>Newsletter Signup</h3>
+            <h4>Newsletter Signup</h4>
             <Form />
         </div>
     )

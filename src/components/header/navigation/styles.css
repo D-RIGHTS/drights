@@ -1,0 +1,8 @@
+.navbar-brand:hover {
+    background-color: #29ca8e;
+    padding: 0 0.5em 0.5em
+}
+.lama {
+    border-top: 5px solid #29ca8e;
+    padding: 0 10px;
+}

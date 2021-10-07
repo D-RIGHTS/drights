@@ -1,13 +1,15 @@
-import React from 'react'
+import React from 'react';
+import '../../../../footer/styles.css';
 
 function Form() {
     return (
         <div>
-           <form>
-               <input type="email" placeholder="Enter your email" />
-               <button type="submit" className="btn">Send me</button>
+           <form className="form-group">
+               <input type="email" className="form-control" placeholder="Enter your email" />
+               <br />
+               <button type="submit" className="btn btnStyles">Send me</button>
            </form>
-           <small>* Please note - we do not spam your email</small>
+           <small className="emailT">* Please note - we do not spam your email</small>
         </div>
     )
 }

@@ -1,9 +1,10 @@
 import React from 'react'
 import Base from './base/Base';
+import './styles.css'
 
 function Footer() {
     return (
-        <div className="bg-dark text-white">
+        <div className="text-white footerA">
             <Base />
         </div>
     )

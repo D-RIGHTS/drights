@@ -5,10 +5,14 @@ import './styles.css';
 
 function Contact() {
     return (
-        <div className="bg-primary d-flex justify-content-between conta">
-            <div>
-                <div>
-                    <h1>Contact us</h1>
+        <div className="conta">
+            <div className="formHandle">
+                <div >
+                    <div>
+                    <h2>Contact us</h2>
+                    <p>We would love to hear from you!</p>
+                    </div>
+                    <br />
                     <Form />
                 </div>
             </div>

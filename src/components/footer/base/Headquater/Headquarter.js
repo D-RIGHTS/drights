@@ -1,25 +1,31 @@
-import React from 'react'
+import React from 'react';
+import '../../../footer/styles.css'
 
 function Headquarter() {
     return (
        <div>
             <div>
-                <h3>Headquarter</h3>
-                <p>25 Borodinsky Ave</p>
-                <p>Zaporozhye, Ukraine</p>
+                <h4>Headquarter</h4>
+                <p className="textColor">25 Borodinsky Ave</p>
+                <p className="textColor">Zaporozhye, Ukraine</p>
             </div>
-
+            
+            <div className="d-flex">
+                <div className="fabColor">
+                    <i class="fab fa-facebook-square"></i>
+                </div>
+                <div className="fabColor">
+                    <i class="fab fa-twitter"></i>
+                </div>
+                <div className="fabColor">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
             <div>
-            <i class="fab fa-facebook-square"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-instagram"></i>
+            <p className="textColor pt-3">Copyright &copy; 2020 drights</p>
+            <p className="textColor">Designed by: Dumisani Rodrick Ndhlovu</p>
             </div>
-
-            <div>
-            <p>Copyright &copy; 2020 drights</p>
-            <p>Designed by: Dumisani Rodrick Ndhlovu</p>
-            </div>
-       </div>
+       </div> 
     )
 }
 

@@ -1,0 +1,50 @@
+.footerA {
+    padding: 150px 50px;
+    background-color: #252020;
+}
+
+.btnStyles {
+    /* background-color: transparent; */
+    border: 1px solid #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #fff;
+    padding: 10px 50px;
+}
+.btnStyles:hover {
+    background-color: #29ca8e;
+    color: #fff;
+}
+
+.textColor {
+    color: #909090;
+}
+
+.fabColor {
+    color: #29ca8e;
+    padding: 0 10px; 
+}
+
+.fabColor:hover {
+    background-color: #29ca8e;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.emailT {
+    color: #909090;
+    padding-bottom: 10px;
+}
+.emailT a {
+    color: #909090 !important;
+}
+
+.emailT a:hover {
+    color: #29ca8e;
+}
+
+.linkers {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 250px;
+}

@@ -1,4 +1,44 @@
 .bgImg {
+    width: 350px;   
     height: 200px;
-    
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* object-fit: contain; */
+}
+
+.bgDiv {
+    background-color: lightgrey;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.comps {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding-top: 170px;
+  
+}
+
+.blogContainer {
+    width: 100%; 
+    max-width: 350px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 3px rgb(247, 201, 201);
+}
+
+.Lbtn {
+    background-color: transparent;
+    border: 1px solid #29ca8e;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #29ca8e;
+    padding: 10px 80px;
+}
+.Lbtn:hover {
+    background-color: #29ca8e;
+    color: #fff;
 }
