@@ -1,8 +1,7 @@
 import React from 'react';
-import m1 from '../Authors/m1.jpg';
-import m2 from '../Authors/m2.jpg';
-import m3 from '../Authors/m2.jpg';
-import './styles.css'
+import m1 from '../AuthorsPage/m1.jpg';
+import m2 from '../AuthorsPage/m2.jpg';
+import './styles.css';
 
 function Authors() {
     return (
