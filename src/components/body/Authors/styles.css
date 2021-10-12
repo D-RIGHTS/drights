@@ -1,0 +1,21 @@
+.authContainer {
+    background-color: #f8f8f8;
+}
+
+.imgAuthor {
+    width: 200px;   
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.authFab {
+    color: #252020;
+    padding: 0 10px;  
+}
+
+.authFab:hover {
+    background-color: #29ca8e;
+    border-radius: 20px;
+    color: #fff;
+}
+

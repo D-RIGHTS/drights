@@ -1,0 +1,27 @@
+.blogger {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.bgDiver {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.conts {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.containa {
+    background-color: #f8f8f8;
+}
+
+.sart {
+    padding: 1px
+}

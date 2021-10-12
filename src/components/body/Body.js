@@ -1,16 +1,17 @@
 import React from 'react'
-import About from './About/About';
-import Contact from './Contact/Contact';
-import Hero from './hero/Hero';
-import Latest from './Latest/Latest';
+import BlogPage from './BlogPage/BlogPage';
+import HomePage from './HomePage/HomePage';
+import {  Route } from 'react-router-dom'
+import AboutPage from './AboutPage/AboutPage';
+import Authors from './Authors/Authors';
 
 function Body() {
     return (
         <div>
-            <Hero />
-            <About />
-            <Latest />
-            <Contact />
+            <Route path="/home" component={HomePage} />
+            <Route path="/blog" component={BlogPage} />
+            <Route path="/about_us" component={AboutPage} />
+            <Route path="/authors" component={Authors} />
         </div>
     )
 }

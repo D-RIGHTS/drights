@@ -1,26 +1,27 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './styles.css';
 
 function Navigation() {
     return (
         <div>
             <nav className="navbar fixed-top navbar-light bg-light lama">
-                <a href="home" className="logo">drights</a>
+                <Link to="home" className="logo">drights</Link>
                 <ul className="d-flex">
                     <li className="">
-                        <a href="home" className="navbar-brand">Home</a>
+                        <Link to="home" className="navbar-brand">Home</Link>
                     </li>
                     <li className="">
-                        <a href="blog" className="navbar-brand">Blog</a>
+                        <Link to="blog" className="navbar-brand">Blog</Link>
                     </li>
                         <li className="">
-                    <a href="about_us" className="navbar-brand">About Us</a>
+                    <Link to="about_us" className="navbar-brand">About Us</Link>
                     </li>
                         <li className="">
-                    <a href="authors" className="navbar-brand">Authors</a>
+                    <Link to="authors" className="navbar-brand">Authors</Link>
                     </li>
                     <li className="">
-                        <a href="contact_us" className="navbar-brand">Contact Us</a>
+                        <Link to="contact_us" className="navbar-brand">Contact Us</Link>
                     </li>
                 </ul>
             </nav>

@@ -17,7 +17,7 @@ function Contact() {
                 </div>
             </div>
             <div>
-                <img src={contact} alt="Contacts" />
+                <img class="imgCont" src={contact} alt="Contacts" />
             </div>
         </div>
     )

@@ -1,11 +1,14 @@
 .heroStyles {
     height: 800px;
+    background: rgba(0, 0, 0, 0.4) url(background.jpg);
+    background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
 }
 
 .btnStyles {
@@ -16,4 +19,4 @@
     color: #fff;
     padding: 10px 40px;
 }
-
+ 
