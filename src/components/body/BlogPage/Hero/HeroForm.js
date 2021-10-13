@@ -1,4 +1,5 @@
 import React from 'react'
+import { Button } from 'react-bootstrap'
 
 function HeroForm() {
     return (
@@ -9,7 +10,7 @@ function HeroForm() {
             <nav class="navbar navbar-light bg-light sart">
                 <form class="form-inline">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search for ..." aria-label="Search" />
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Go</button>
+                    <Button class="btn btn-outline-success my-2 my-sm-0" type="submit">Go</Button>
                 </form>
             </nav>
             <br />

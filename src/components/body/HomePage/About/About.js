@@ -9,13 +9,11 @@ function About() {
            <div className="d-flex flex-column align-items-center textFlow">
                 <h1>About Us</h1>
                 <div className="m-5">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore molestias i
-                    psa veritatis nihil iusto maiores natus dolor, 
-                    a reiciendis corporis obcaecati ex. Totam assumenda impedit aut eum, illum distinctio saepe explicabo.
-                    Consequuntur molestiae 
-                    similique id quos, quasi quas perferendis laboriosam, fugit natus odit totam! Id dolores saepe,
-                    sint debitis rerum dolorem tempora aliquid, 
-                    pariatur enim nisi. Quia ab iusto assumenda. 
+                   drights is an upcoming website building company that will focus on the clients needs.
+                   Our website is currently hard coded but in the near future this will change.
+                   We are based in Zaporozhye, Ukraine. drights was founded by Dumisani Rodrick Ndhlovu
+                   in late 2021. We intend on also focusing on the creation of mobile applications but for now we will
+                   this is still in our TO-DO list of items to consider in the future/ Our Websites are responsive and also support mobile optimazation.
                 </div>
            </div>
            <div></div>

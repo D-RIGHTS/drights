@@ -7,7 +7,7 @@ function ContactPage() {
              <div className="blogger">
                 <h4>Contact Us</h4>
                 <p>
-                    Get acquainted with the team that made drights a success
+                    If you have questions for us, get in touch with the drights team
                 </p>
             </div>
             <Contact />

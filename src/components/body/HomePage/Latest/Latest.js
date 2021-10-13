@@ -1,8 +1,10 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
 import './styles.css';
 import p1 from './p1.jpg';
 import p2 from './p2.jpeg';
 import p3 from './p3.jpeg';
+
 
 function Latest() {
   const ReadMore = () => {
@@ -18,7 +20,7 @@ function Latest() {
                     <p>Lorem</p>
                 </div>
                 <div className="d-flex justify-content-between">
-                    <div className="blogContainer">
+                    <div className=" blogContainer">
                         <div className="bgImg" style={{backgroundImage: `url(${p1})`}}>
                           <div className="comps">
                               <div className="d-flex align-items-baseline px-2">
@@ -38,11 +40,11 @@ function Latest() {
                         <div className="text-center">
                             <h4 className="p-4">Reading about computer science and how to become a React Developer</h4> 
                             <div className="p-4">
-                              <button 
+                              <Button 
                                 className="btn Lbtn"
                                 onClick={ReadMore}
                                 >Read More
-                              </button>
+                              </Button>
                             </div>
                         </div>
                     </div>
@@ -68,11 +70,11 @@ function Latest() {
                         <div className="text-center">
                             <h4 className="p-4">Following your trail till dawn, saying no to fear of any kind</h4> 
                             <div className="p-4">
-                              <button 
+                              <Button 
                                 className="btn Lbtn"
                                 onClick={ReadMore}
                                 >Read More
-                              </button>
+                              </Button>
                             </div>
                         </div>
                     </div>
@@ -97,11 +99,11 @@ function Latest() {
                         <div className="text-center">
                             <h4 className="p-4">How to be the best in your field, and minding your business</h4> 
                             <div className="p-4">
-                              <button 
+                              <Button 
                                 className="btn Lbtn"
                                 onClick={ReadMore}
                                 >Read More
-                              </button>
+                              </Button>
                             </div>
                         </div>
                     </div> 

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
 import './styles.css';
 
 function Hero () {
@@ -16,12 +17,12 @@ function Hero () {
                     A computer is an electronic device which can perform many tasks like messaging, calculations, data storage, printing, etc. Computers were developed in the 1940s. These days 
                     computers are used everywhere—homes, schools, colleges, offices, hotels, railway stations, airports, shops, etc.
                     </div> 
-                    <button 
+                    <Button 
                     className="btn btnStyles"
                     onClick={ReadMore}
                     >
                         Read more
-                    </button>
+                    </Button>
                 </div>
                 <div></div>
             </div>

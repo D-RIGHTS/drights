@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Button } from 'react-bootstrap';
 import './styles.css';
 
 function Form() {
@@ -23,7 +24,7 @@ function Form() {
                 
                 <div className="form-group row">
                     <div className="col-sm-10">
-                        <button type="submit" className="btn btnStyle">Send Message</button>
+                        <Button type="submit" className="btn btnStyle">Send Message</Button>
                     </div>
                 </div>
             </form>

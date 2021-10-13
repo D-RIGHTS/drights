@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../BlogPage/styles.css'
+import { Button } from 'react-bootstrap';
 import p1 from '../../../body/HomePage/Latest/p1.jpg';
 import p2 from '../../../body/HomePage/Latest/p2.jpeg';
 import p3 from '../../../body/HomePage/Latest/p3.jpeg';
@@ -36,11 +37,11 @@ function HeroInfo() {
                         <div className="text-center">
                             <h4 className="p-4">Reading about computer science and how to become a React Developer</h4> 
                             <div className="p-4">
-                              <button 
+                              <Button 
                                 className="btn Lbtn"
                                 onClick={ReadMore}
                                 >Read More
-                              </button>
+                              </Button>
                             </div>
                         </div>
                     </div>
@@ -68,11 +69,11 @@ function HeroInfo() {
                         <div className="text-center">
                             <h4 className="p-4">Following your trail till dawn, saying no to fear of any kind! Strength is key</h4> 
                             <div className="p-4">
-                              <button 
+                              <Button 
                                 className="btn Lbtn"
                                 onClick={ReadMore}
                                 >Read More
-                              </button>
+                              </Button>
                             </div>
                         </div>
                     </div>
@@ -100,11 +101,11 @@ function HeroInfo() {
                         <div className="text-center">
                             <h4 className="p-4">Who says the palate does not count? Read more to find out</h4> 
                             <div className="p-4">
-                              <button 
+                              <Button 
                                 className="btn Lbtn"
                                 onClick={ReadMore}
                                 >Read More
-                              </button>
+                              </Button>
                             </div>
                         </div>
                     </div>
@@ -131,11 +132,11 @@ function HeroInfo() {
                         <div className="text-center">
                             <h4 className="p-4">How to be the best in your field, and minding your business</h4> 
                             <div className="p-4">
-                              <button 
+                              <Button 
                                 className="btn Lbtn"
                                 onClick={ReadMore}
                                 >Read More
-                              </button>
+                              </Button>
                             </div>
                         </div>
                     </div> 
