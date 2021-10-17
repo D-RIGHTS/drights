@@ -1,5 +1,5 @@
 .bgImg {
-    width: 350px;   
+    width:350px;   
     height: 200px;
     background: rgba(0, 0, 0, 0.6) url(p1.jpg);
     background-blend-mode: darken;
@@ -10,7 +10,6 @@
 
 .bgDiv {
     background-color: lightgrey;
-    height: 800px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -43,4 +42,11 @@
 .Lbtn:hover {
     background-color: #29ca8e;
     color: #fff;
+}
+
+@media (max-width: 768px) {
+    .bgImg,
+    .blogContainer {
+        width: 280px
+    }
 }

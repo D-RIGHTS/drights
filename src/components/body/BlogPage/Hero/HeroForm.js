@@ -3,12 +3,12 @@ import { Button } from 'react-bootstrap'
 
 function HeroForm() {
     return (
-        <div className="px-1">
+        <div className="hForm">
             <br />
             <h4>Blog Search</h4>
             <br />
             <nav class="navbar navbar-light bg-light sart">
-                <form class="form-inline">
+                <form class="d-flex">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search for ..." aria-label="Search" />
                     <Button class="btn btn-outline-success my-2 my-sm-0" type="submit">Go</Button>
                 </form>

@@ -6,7 +6,7 @@ function Footer() {
     return (
         <div className="text-white footerA">
             <Base />
-        </div>
+        </div> 
     )
 }
 

@@ -3,7 +3,7 @@ import './styles.css';
 
 function About() {
     return (
-        <div className="d-flex flex-column justify-content-between about">
+        <div className="d-flex flex-column justify-content-between">
 
            <div></div>
            <div className="d-flex flex-column align-items-center textFlow">

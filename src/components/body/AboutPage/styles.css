@@ -24,3 +24,12 @@
     padding: 30px
 }
 
+@media (max-width: 768px) {
+    .imgHandling {
+        display: none;
+    }
+    .blogger {
+       padding: 0 30px
+    }
+}
+

@@ -19,7 +19,17 @@
 }
 
 .containa {
+    
     background-color: #f8f8f8;
+    display: flex;
+}
+@media (max-width: 768px) {
+  .containa {
+    flex-wrap: wrap;
+  } 
+  .hForm {
+    padding: 0 20px;   
+  }    
 }
 
 .sart {

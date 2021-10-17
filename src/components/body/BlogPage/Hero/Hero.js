@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../BlogPage/styles.css'
+import '../../BlogPage/styles.css';
 import HeroInfo from './HeroInfo';
 import HeroForm from './HeroForm';
 
@@ -12,10 +12,10 @@ function Hero() {
                     This section allow you to read posts posted by other user. Throw your own posts as well. 
                 </p>
             </div>
-            <div className="d-flex justify-content-between containa">
+            <div className=" containa">
               <HeroInfo />
               <HeroForm />           
-            </div>
+            </div> 
         </div>
     )
 }
