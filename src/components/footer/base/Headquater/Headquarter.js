@@ -11,15 +11,15 @@ function Headquarter() {
             </div>
             
             <div className="d-flex">
-                <div className="fabColor">
+                <a href="https://www.facebook.com/dumisani.r.ndhlovu" target="_blank" className="fbColor">
                     <i class="fab fa-facebook-square"></i>
-                </div>
-                <div className="fabColor">
-                    <i class="fab fa-twitter"></i>
-                </div>
-                <div className="fabColor">
+                </a>
+                <a href="https://www.linkedin.com/in/dumisani-rodrick-ndhlovu/" target="_blank" className="LdColor">
+                <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" className="inColor">
                     <i class="fab fa-instagram"></i>
-                </div>
+                </a>
             </div>
             <div>
             <p className="textColor pt-3">Copyright &copy; 2020 drights</p>

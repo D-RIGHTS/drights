@@ -20,16 +20,40 @@
     color: #909090;
 }
 
-.fabColor {
-    color: #29ca8e;
+.fbColor {
+    color: #4267B2;
     padding: 0 10px;  
 }
 
-.fabColor:hover {
-    background-color: #29ca8e;
+.fbColor:hover {
+    background-color: #4267B2;
     border-radius: 20px;
     color: #fff;
 }
+
+.LdColor {
+    color: #0e76a8;
+    padding: 0 10px;  
+}
+
+.LdColor:hover {
+    background-color: #0e76a8;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.inColor {
+    color: #8a3ab9;
+    padding: 0 10px;  
+}
+
+.inColor:hover {
+    background-color: #8a3ab9;
+    border-radius: 20px;
+    color: #fff;
+}
+
+
 
 .emailT {
     color: #909090;
