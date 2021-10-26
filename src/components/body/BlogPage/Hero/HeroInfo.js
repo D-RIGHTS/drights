@@ -23,15 +23,15 @@ function HeroInfo() {
                                 <div className="bgImg" style={{backgroundImage: `url(${p1})`}}>
                                   <div className="comps">
                                       <div className="d-flex align-items-baseline px-2">
-                                        <i class="fas fa-user pr-1"></i>
+                                        <i className="fas fa-user pr-1"></i>
                                         <p>Dumisani Ndhlovu</p>
                                       </div>
                                       <div className="d-flex align-items-baseline">
-                                        <i class="fas fa-calendar pr-1"></i>
+                                        <i className="fas fa-calendar pr-1"></i>
                                         <p>05/06/21</p>
                                       </div>
                                       <div className="d-flex align-items-baseline px-2">
-                                        <i class="fas fa-eye pr-1"></i>
+                                        <i className="fas fa-eye pr-1"></i>
                                         <p>150</p>
                                       </div>
                                   </div>  
@@ -57,15 +57,15 @@ function HeroInfo() {
                               <div className="bgImg" style={{backgroundImage: `url(${p2})`}}>
                                 <div className="comps">
                                     <div className="d-flex align-items-baseline px-2">
-                                      <i class="fas fa-user pr-1"></i>
+                                      <i className="fas fa-user pr-1"></i>
                                       <p>Noma Sibanda</p>
                                     </div>
                                     <div className="d-flex align-items-baseline px-2">
-                                      <i class="fas fa-calendar pr-1"></i>
+                                      <i className="fas fa-calendar pr-1"></i>
                                       <p>01/06/21</p>
                                     </div>
                                     <div className="d-flex align-items-baseline px-2">
-                                      <i class="fas fa-eye pr-1"></i>
+                                      <i className="fas fa-eye pr-1"></i>
                                       <p>99</p>
                                     </div>
                                 </div>  
@@ -91,15 +91,15 @@ function HeroInfo() {
                             <div className="bgImg" style={{backgroundImage: `url(${p2})`}}>
                               <div className="comps">
                                   <div className="d-flex align-items-baseline px-2">
-                                    <i class="fas fa-user pr-1"></i>
+                                    <i className="fas fa-user pr-1"></i>
                                     <p>Noma Sibanda</p>
                                   </div>
                                   <div className="d-flex align-items-baseline px-2">
-                                    <i class="fas fa-calendar pr-1"></i>
+                                    <i className="fas fa-calendar pr-1"></i>
                                     <p>01/06/21</p>
                                   </div>
                                   <div className="d-flex align-items-baseline px-2">
-                                    <i class="fas fa-eye pr-1"></i>
+                                    <i className="fas fa-eye pr-1"></i>
                                     <p>99</p>
                                   </div>
                               </div>  
@@ -124,15 +124,15 @@ function HeroInfo() {
                                 <div className="bgImg" style={{backgroundImage: `url(${p3})`}}>
                                   <div className="comps">
                                       <div className="d-flex align-items-baseline px-2">
-                                        <i class="fas fa-user pr-1"></i>
+                                        <i className="fas fa-user pr-1"></i>
                                         <p>Alisa Jameson</p>
                                       </div>
                                       <div className="d-flex align-items-baseline px-2">
-                                        <i class="fas fa-calendar pr-1"></i>
+                                        <i className="fas fa-calendar pr-1"></i>
                                         <p>26/06/21</p>
                                       </div>
                                       <div className="d-flex align-items-baseline px-2">
-                                        <i class="fas fa-eye pr-1"></i>
+                                        <i className="fas fa-eye pr-1"></i>
                                         <p>129</p>
                                       </div>
                                   </div>  

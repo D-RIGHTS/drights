@@ -22,7 +22,7 @@ function Contact() {
             
             <Col lg={6}>
                 <div className="imageC">
-                    <img class="imgCont" src={contact} alt="Contacts" />
+                    <img className="imgCont" src={contact} alt="Contacts" />
                 </div>
             </Col>
         </Row>

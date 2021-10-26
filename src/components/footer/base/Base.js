@@ -3,6 +3,7 @@ import { Row, Col } from 'react-bootstrap';
 import Headquarter from './Headquater/Headquarter';
 import Info from './Info/Info';
 import News from './News/News';
+import Weather from './Weather/Weather';
 
 function Base () {
     return (
@@ -15,6 +16,7 @@ function Base () {
             </Col>
             <Col lg={4}>
                 <News />
+                <Weather />
             </Col>
         </Row>
     )

@@ -12,7 +12,7 @@ function Authors() {
                     Get acquainted with the team that made drights a success
                 </p>
             </div>
-            <div className="d-flex justify-content-between">
+            <div className="mContainer">
             <div className="p-5 authContainer">
                 <div>
                     <img className="imgAuthor" src={m1} alt="" />

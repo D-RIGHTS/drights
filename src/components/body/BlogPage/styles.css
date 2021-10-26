@@ -23,6 +23,13 @@
     background-color: #f8f8f8;
     display: flex;
 }
+
+.mContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 @media (max-width: 768px) {
   .containa {
     flex-wrap: wrap;

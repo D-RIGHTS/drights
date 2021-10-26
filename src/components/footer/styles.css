@@ -72,3 +72,33 @@
     flex-wrap: wrap;
     max-width: 250px;
 }
+
+.cold {
+    background-color:#00ffff;
+    border-radius: 20px;
+    box-shadow: 0 0 15px lightgrey;
+}
+
+.warm {
+    background-color: #fff700;
+    border-radius: 20px;
+    box-shadow: 0 0 15px lightgrey;
+}
+
+.hot {
+    background-color: #ff8c00;
+    border-radius: 20px;
+    box-shadow: 0 0 15px lightgrey;
+}
+
+
+.standardL {
+    background-color: white;
+}
+
+.divBlock {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    left: 80%
+}
