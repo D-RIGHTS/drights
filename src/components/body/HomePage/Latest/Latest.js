@@ -57,7 +57,7 @@ function Latest() {
                               <div className="comps">
                                   <div className="d-flex align-items-baseline px-2">
                                     <i className="fas fa-user pr-1"></i>
-                                    <p>Noma Sibanda</p>
+                                    <p>Nobuhle Mangena</p>
                                   </div>
                                   <div className="d-flex align-items-baseline px-2">
                                     <i className="fas fa-calendar pr-1"></i>

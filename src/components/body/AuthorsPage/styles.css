@@ -3,9 +3,10 @@
 }
 
 .imgAuthor {
-    width: 200px;   
+    width: 200px; 
     object-fit: contain;
     border-radius: 10px;
+    
 }
 
 .authFab {
@@ -18,4 +19,5 @@
     border-radius: 20px;
     color: #fff;
 }
+
 

@@ -11,13 +11,13 @@ function Headquarter() {
             </div>
             
             <div className="d-flex">
-                <a href="https://www.facebook.com/dumisani.r.ndhlovu" target="_blank" className="fbColor">
+                <a href="https://www.facebook.com/dumisani.r.ndhlovu" target="_blank" rel="noreferrer" className="fbColor">
                     <i className="fab fa-facebook-square"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/dumisani-rodrick-ndhlovu/" target="_blank" className="LdColor">
+                <a href="https://www.linkedin.com/in/dumisani-rodrick-ndhlovu/" target="_blank" rel="noreferrer" className="LdColor">
                 <i className="fab fa-linkedin"></i>
                 </a>
-                <a href="https://www.instagram.com/" target="_blank" className="inColor">
+                <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" className="inColor">
                     <i className="fab fa-instagram"></i>
                 </a>
             </div>
